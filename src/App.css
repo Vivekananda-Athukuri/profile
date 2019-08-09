@@ -42,8 +42,21 @@
   color: #A8B4D8;
 }
 
-#skype {
+.skype-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skype-icon {
   color: #00AAEA;
+  font-size: 0.7em;
+}
+
+.skype-name {
+  color: #00AAEA;
+  font-size: medium;
+  margin-left: 5px;
 }
 
 #resume {

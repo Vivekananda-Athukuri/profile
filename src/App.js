@@ -15,6 +15,10 @@ function App() {
           <div id="firstname">Vivekananda</div>
           <div id="lastname">Athukuri</div>
         </div>
+        <div className="skype-wrapper">
+          <FontAwesomeIcon className="skype-icon" icon={faSkype} />
+          <div className="skype-name">vivekananda.athukuri</div>
+        </div>
         <div className="links">
           <a className="App-link" id="github" href="https://github.com/Vivekananda-Athukuri" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
@@ -24,9 +28,6 @@ function App() {
           </a>
           <a className="App-link" id="email" href="mailto:vivekananda.tagore@protonmail.com" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faEnvelope} />
-          </a>
-          <a className="App-link" id="skype" href="https://skype.com" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faSkype} />
           </a>
           <a className="App-link" id="resume" href="https://www.visualcv.com/pdfs/5224336/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFilePdf} />

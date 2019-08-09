@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+#profile {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+#profile img {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+#github {
+  color: black;
+}
+
+#linkedin {
+  color: #0A66C2;
+}
+
+#email {
+  color: #A8B4D8;
+}
+
+#skype {
+  color: #00AAEA;
+}
+
+#resume {
+  color: #FF0000;
+  font-size: 0.9em;
+}
+
+.name {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  cursor: default;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.name > #lastname {
+  margin-left: 5px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  font-size: larger;
+}

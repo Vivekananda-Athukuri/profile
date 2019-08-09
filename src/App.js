@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faFilePdf, faClock, faComment } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFilePdf, faClock } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
 
 function App() {

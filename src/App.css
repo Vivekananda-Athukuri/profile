@@ -42,21 +42,8 @@
   color: #A8B4D8;
 }
 
-.skype-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.skype-icon {
+.skype {
   color: #00AAEA;
-  font-size: 0.7em;
-}
-
-.skype-name {
-  color: #00AAEA;
-  font-size: medium;
-  margin-left: 5px;
 }
 
 #resume {
@@ -84,4 +71,22 @@
   display: flex;
   flex-direction: row;
   font-size: larger;
+}
+
+.chat-links {
+  font-size: medium;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.calendly {
+  cursor: pointer;
+  color: blue;
+  margin-bottom: 2vh; 
+}
+
+.seperator {
+  margin-left: 10px;
+  margin-right: 10px;
 }

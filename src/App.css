@@ -42,10 +42,6 @@
   color: #A8B4D8;
 }
 
-.skype {
-  color: #00AAEA;
-}
-
 #resume {
   color: #FF0000;
   font-size: 0.9em;
@@ -75,16 +71,15 @@
 
 .chat-links {
   font-size: medium;
-  margin-top: 10vh;
 }
 
 .calendly {
   cursor: pointer;
   color: blue;
-  margin-bottom: 2vh;
+  margin-top: 10vh;
 }
 
-.seperator {
-  margin-left: 10px;
-  margin-right: 10px;
+.skype {
+  color: #00AAEA;
+  margin-top: 2vh;
 }

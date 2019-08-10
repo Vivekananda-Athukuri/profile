@@ -76,14 +76,12 @@
 .chat-links {
   font-size: medium;
   margin-top: 10vh;
-  display: flex;
-  flex-direction: column;
 }
 
 .calendly {
   cursor: pointer;
   color: blue;
-  margin-bottom: 2vh; 
+  margin-bottom: 2vh;
 }
 
 .seperator {

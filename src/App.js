@@ -23,20 +23,18 @@ function App() {
           <a className="App-link" id="linkedin" href="https://www.linkedin.com/in/vivekananda-athukuri/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a className="App-link" id="email" href="mailto:vivekananda.tagore@protonmail.com" target="_blank" rel="noopener noreferrer" title="Email">
+          <a className="App-link" id="email" href="mailto:vivekananda.tagore@protonmail.com" rel="noopener noreferrer" title="Email">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
-          <a className="App-link" id="resume" href="https://www.visualcv.com/pdfs/5224336/" target="_blank" rel="noopener noreferrer" title="Resume">
+          <a className="App-link" id="resume" href="/resume.pdf" target="_blank" rel="noopener noreferrer" title="Resume">
             <FontAwesomeIcon icon={faFilePdf} />
           </a>
         </div>
-        <div className="chat-links">
-          <div className="calendly" onClick={() => window.Calendly.initPopupWidget({url: 'https://calendly.com/vivekananda-athukuri/schedule'})}>
-            <FontAwesomeIcon icon={faClock} /> schedule a meeting
-          </div>
-          <div className="skype">
-            <FontAwesomeIcon icon={faSkype} /> vivekananda.athukuri
-          </div>
+        <div className="chat-links calendly" onClick={() => window.Calendly.initPopupWidget({url: 'https://calendly.com/vivekananda-athukuri/schedule'})}>
+          <FontAwesomeIcon icon={faClock} /> schedule a meeting
+        </div>
+        <div className="chat-links skype">
+          <FontAwesomeIcon icon={faSkype} /> vivekananda.athukuri
         </div>
       </div>
     </div>

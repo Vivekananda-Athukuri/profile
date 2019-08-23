@@ -1,5 +1,6 @@
 // global Calendly
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faFilePdf, faClock } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
@@ -31,8 +32,8 @@ function Profile(props) {
             <FontAwesomeIcon icon={faFilePdf} />
           </a>
         </div>
-        <div className="chat-links calendly" onClick={() => window.Calendly.initPopupWidget({url: 'https://calendly.com/vivekananda-athukuri/schedule'})}>
-          <FontAwesomeIcon icon={faClock} /> schedule a meeting
+        <div className="chat-links calendly">
+          <Link to='/schedule'><FontAwesomeIcon icon={faClock} /> schedule a meeting</Link>
         </div>
         <div className="chat-links skype">
           <FontAwesomeIcon icon={faSkype} /> vivekananda.athukuri

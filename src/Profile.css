@@ -75,8 +75,12 @@
 
 .calendly {
   cursor: pointer;
-  color: blue;
   margin-top: 10vh;
+}
+
+.calendly a {
+  color: blue;
+  text-decoration: none;
 }
 
 .skype {
